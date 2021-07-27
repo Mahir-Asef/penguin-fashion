@@ -164,3 +164,112 @@ color: #FFFFFF;
 .info-big-image>img{
     width: 600px;
 }
+
+/* ================Responsive for Mobile device==================== */
+
+@media only screen and (max-width: 480px) {
+
+    /* =========navbar=========== */
+    .nav-logo{
+        margin: 0 auto;
+    }
+    .nav-logo img{
+        width: 100%;
+    }
+    .nav-elements{
+        display: none;
+    }
+    
+
+    /* ===================hero section============ */
+    .hero{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .hero-text{
+        text-align: center;
+        padding: 5PX;
+    }
+    .hero-text h1{
+        font-size: 35px;
+    }
+
+    /* =================women section======================= */
+
+    .human-section{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* =============INFORMATION SYSTEM=========== */
+
+    .info{
+        flex-direction: column;
+        width: 100%;
+    }
+    .info-details{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .info-big-image img{
+        width: 100%;
+    }
+
+}
+
+/* =================FOR MEDIEM DEVICE========== */
+
+@media only screen and (max-width:768px) {
+    .nav-logo{
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    .nav-logo img{
+        width: 70%;
+    }
+    .nav-elements{
+        display: none;
+    }
+    
+
+    /* ===================hero section============ */
+    .hero{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .hero-text{
+        text-align: center;
+        padding: 5PX;
+    }
+    .hero-text h1{
+        font-size: 45px;
+    }
+
+    /* =================women section======================= */
+
+    .human-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .human-items{
+        width: 45%;
+        margin-top: 2%;
+        padding:0%;
+    }
+
+
+    /* =============INFORMATION SYSTEM=========== */
+
+    .info{
+        flex-direction: column;
+        width: 100%;
+    }
+    .info-details{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .info-big-image img{
+        width: 100%;
+        margin-top:20px ;
+    }
+}
